@@ -6,3 +6,5 @@ app = Flask(__name__, template_folder='templates')
 
 app.register_blueprint(index_bp)
 app.register_blueprint(getpoint_bp)
+
+
