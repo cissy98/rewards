@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+
+{%  block content %}
+    <form method="post" class="pointform">
+        <label for="pointtext">Your Points:
+           <textarea name="pointtext" id="pointtext"></textarea>
+        </label>
+        <input type="submit" name="getpoints" value="Save">
+    </form>
+{% endblock %}

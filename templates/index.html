@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+
+{%  block content %}
+<div class="pointlist">
+{% for point in points %}
+   <div class="point">
+     <p>{{point}}</p>
+   </div>
+  {% endfor%}
+</div>
+{% endblock %}
